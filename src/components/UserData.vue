@@ -13,7 +13,7 @@ export default {
     data() {
         return {
             inputName: '',
-            inputAge: 0
+            inputAge: ''
         }
     },
     methods: {

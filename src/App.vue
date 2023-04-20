@@ -18,7 +18,7 @@ export default {
     methods: {
         updateUserInfo(newName, newAge){
             this.user.username = newName
-            this.user.age = newAge
+            this.user.age = +newAge
         }
     }
 }
